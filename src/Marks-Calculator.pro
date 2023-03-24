@@ -1,6 +1,10 @@
 QT       += core gui
 QT += widgets
 greaterThan(QT_MAJOR_VERSION, 4): QT += widgets
+QT += network
+QT += core gui network
+
+
 
 CONFIG += c++17
 
@@ -10,10 +14,13 @@ CONFIG += c++17
 
 SOURCES += \
     main.cpp \
-    mainwindow.cpp
+    mainwindow.cpp \
+    messagebox.cpp \
+    version_check.cpp
 
 HEADERS += \
-    mainwindow.h
+    mainwindow.h \
+    version_check.h
 
 FORMS += \
     mainwindow.ui
