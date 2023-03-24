@@ -104,6 +104,9 @@
       <height>61</height>
      </rect>
     </property>
+    <property name="styleSheet">
+     <string notr="true">font: 18pt &quot;Segoe UI&quot;;</string>
+    </property>
     <property name="text">
      <string/>
     </property>
@@ -116,6 +119,9 @@
       <width>641</width>
       <height>61</height>
      </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">font: 18pt &quot;Segoe UI&quot;;</string>
     </property>
     <property name="text">
      <string/>
@@ -165,6 +171,9 @@
       <width>641</width>
       <height>61</height>
      </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">font: 18pt &quot;Segoe UI&quot;;</string>
     </property>
     <property name="text">
      <string/>
